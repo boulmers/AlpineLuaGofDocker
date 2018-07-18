@@ -1,5 +1,5 @@
 #!/bin/bash
-# executer  les instruction une apres l'autre 
+# exécuter de préférence les instruction une après l'autre
 
 # consruire l'image se basant sur le script 'AlpineLuaGOF.dockerfile' et vider le cache et les fichiers intermediaires
 sudo docker build --tag alpine_lua_gof_img --file AlpineLuaGOF.dockerfile --no-cache --rm .
